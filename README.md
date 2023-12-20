@@ -22,3 +22,5 @@ https://github.com/PatrickAlphaC/hardhat-defi-fcc
  * https://weth.io/
  * WETH contract on Sepolia: https://sepolia.etherscan.io/token/0xd0df82de051244f04bff3a8bb1f62e1cd39eed92
    * deposit ETH to contract to get WETH back: https://sepolia.etherscan.io/address/0xd0df82de051244f04bff3a8bb1f62e1cd39eed92#writeContract 
+* stable borrowing not enabled (anymore I guess), so the `borrow` call must specify `2` (for variable)
+  instead of `1` (for stable)
